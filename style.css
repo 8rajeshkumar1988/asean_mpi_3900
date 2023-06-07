@@ -1700,19 +1700,74 @@ footer {
 
 .top_right .card form .form_group label {
   color: black;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .span_2 {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .top_right .card form .checkbox_group span {
   color: black;
 }
-
-
+.top_right .card {
+  position: absolute;
+  right: 0;
+}
+@media only screen and (max-width:1024px) {
+  .hero-section {
+    min-height: 725px;
+  }
+}
 
 @media only screen and (min-width:2000px) {
   #smartLabels .container {
     margin: auto;
+  }
+}
+@media only screen and (max-width:768px) {
+  .smartLabel-sec {
+    margin-left: 5%;
+  }
+}
+@media only screen and (max-width:767px) {
+  .hero-section {
+    background: url(assets/heroMob2.png);    
+    background-position-y:  1000px;
+    min-height: 1500px;
+  } 
+  .top_right .card {
+    position: relative;
+    right: 0;
+    top: 57%;
+  }
+  .table-sec table {
+    width: 100%;
+  }
+  .hero-section {
+    margin-bottom: 290px;
+  }
+  .width-767 {
+    min-width: 100%;
+  }
+
+}
+@media only screen and (max-width:577px) {
+  .hero-section {    
+    background-position-y:  1100px;
+    min-height: 1500px;
+  } 
+  .top_right .card {
+    top: 50%;
+  }
+}
+
+@media only screen and (max-width:370px) {
+  .top_right .card {
+    top: 47%;
+  }
+}
+
+@media only screen and (max-width:322px) {
+  .top_right .card {
+    top: 35%;
   }
 }
