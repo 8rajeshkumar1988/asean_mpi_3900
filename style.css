@@ -1147,6 +1147,7 @@ section > p {
 #smartLabels .container button {
   background: #fff !important;
   color: #1c353b !important;
+  margin-bottom: 20px;
 }
 
 #smartLabels .container button:after {
@@ -1759,14 +1760,15 @@ button {
 .top_right .card > p {
   color: #292929;
 }
-.table-sec {
+.table-sec-img {
   background: url(assets/rangeSvg.svg);
   background-repeat: no-repeat;
-  background-position-x: right;
+  background-position-x: 110%;
   background-position-y: bottom;
   background-size: contain;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
 }
 
 
@@ -1799,11 +1801,13 @@ button {
     background: url(assets/heroMob2.png);    
     background-position-y:  1000px;
     min-height: 1500px;
+    background-size: contain;
+    
   } 
   .top_right .card {
     position: relative;
     right: 0;
-    top: 57%;
+    top: 50%;
   }
   .table-sec table {
     width: 100%;
@@ -1823,10 +1827,14 @@ button {
   }
   .table-sec {
     height: 550px;
+    
+  }
+  .table-sec-img {
+    
     background-size: 150px;
   }
   
-  .top_left .grid {
+  /* .top_left .grid {
     display: grid;
     grid-template-columns: repeat(3, auto);
     max-width: 30rem;
@@ -1839,7 +1847,7 @@ button {
     margin-right: auto;
     clear: both;
     text-align: center;
-  }
+  } */
   .-ml-8 {
     margin-left: 0;
   }
@@ -1853,10 +1861,20 @@ button {
   
 
 }
+@media only screen and (max-width:647px) {
+  .hero-section {    
+    background-position-y:  900px;    
+    min-height: 1400px;
+  } 
+  .top_right .card{
+    top: 40%;
+  }
+}
 @media only screen and (max-width:577px) {
   .hero-section {    
-    background-position-y:  1100px;
-    min-height: 1500px;
+    background-position-y:  900px;
+    
+    min-height: 1300px;
   } 
   .top_right .card {
     top: 50%;
@@ -1864,11 +1882,30 @@ button {
   .table-sec h1 {
     font-size: 21px;
   }
-}
+  .top_right .card{
+    top: 40%;
+  }
 
+@media only screen and (max-width:449px) {
+  .hero-section {    
+    background-position-y:  800px;
+    min-height: 1500px;
+    background-repeat: no-repeat;
+  }
+  }
+@media only screen and (max-width:449px) {
+  .hero-section {    
+    background-position-y:  800px;
+    min-height: 1500px;
+   
+  } 
+  .top_right .card{
+    top: 27%;
+  }
+}
 @media only screen and (max-width:370px) {
   .top_right .card {
-    top: 47%;
+    top: 20%;
   }
 }
 
