@@ -1747,7 +1747,7 @@ footer {
 }
 .left-border {
   border-left: 0.25px solid grey;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 button {
   background: #0b3b26 !important;
