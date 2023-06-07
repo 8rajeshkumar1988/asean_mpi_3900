@@ -1712,6 +1712,31 @@ footer {
   position: absolute;
   right: 0;
 }
+.top_left .grid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.top_left .grid svg {
+  float: left;
+  margin-right: 5px;
+}
+.top_left .grid p {
+  margin-right: 5px;
+  float: right;
+  text-align: left;
+}
+.left-border {
+  border-left: 0.25px solid grey;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+
+
+
+
+
 @media only screen and (max-width:1024px) {
   .hero-section {
     min-height: 725px;
@@ -1748,6 +1773,39 @@ footer {
   .width-767 {
     min-width: 100%;
   }
+  .table-desk {
+    display: none;
+  }
+  .table-btn {
+    position:relative;
+    top: 130px;
+  }
+  .table-sec {
+    height: 550px;
+  }
+  
+  .top_left .grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    max-width: 30rem;
+  }
+  .top_left .grid svg {
+    float: none;
+    margin-right: auto;
+  }
+  .top_left .grid p {
+    margin-right: auto;
+    clear: both;
+    text-align: center;
+  }
+  .-ml-8 {
+    margin-left: 0;
+  }
+  .table-sec table tr{
+    border-bottom: none;
+    height: 70px;
+  }
+  
 
 }
 @media only screen and (max-width:577px) {
