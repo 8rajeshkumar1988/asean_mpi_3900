@@ -797,7 +797,7 @@ button:hover::after {
 
 .top_left h2 {
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.2;
   color: #62777d;
 }
@@ -1646,7 +1646,7 @@ footer .copy {
 }
 .top_left h2 {
   font-weight: 400;
-    font-size: 2.3rem;
+    font-size: 2rem;
     line-height: 1.5;
     color: #0B3B26;
 }
@@ -1712,6 +1712,9 @@ footer {
   position: absolute;
   right: 0;
 }
+.gap-4 {
+  gap: 3rem;
+}
 .top_left .grid {
   display: flex;
   flex-direction: column;
@@ -1728,8 +1731,10 @@ footer {
 }
 .left-border {
   border-left: 0.25px solid grey;
-  margin-left: 7px;
-  margin-right: 7px;
+  padding: 0 2rem;
+}
+button {
+  background: #0b3b26 !important;
 }
 
 
@@ -1815,6 +1820,9 @@ footer {
   } 
   .top_right .card {
     top: 50%;
+  }
+  .table-sec h1 {
+    font-size: 21px;
   }
 }
 
