@@ -781,8 +781,8 @@ button::after {
   transition: 0.2s;
 }
 
-button:hover {
-  background: #244047 !important;
+button:hover {  
+  background: #0b3b26 !important;
   transform: translateY(-2px);
   box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.1);
 }
@@ -815,7 +815,7 @@ button:hover::after {
 .top_left > p {
   color: #62777d;
   font-weight: 300;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 }
 
 .top_left .grid {
@@ -1337,7 +1337,7 @@ footer .copy {
   }
 
   .top_left > p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .top_left .grid {
@@ -1668,7 +1668,7 @@ footer .copy {
 .top_left > p {
   color: #292929;
   font-weight: 200;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .hero-section {
   background: url(assets/heroback2.png);
