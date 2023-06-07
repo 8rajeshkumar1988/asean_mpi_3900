@@ -798,7 +798,13 @@ button:hover::after {
 .top_left h2 {
   font-weight: 400;
   font-size: 2rem;
-  line-height: 1.2;
+  line-height: 1.0;
+  color: #62777d;
+}
+.top_left h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.0;
   color: #62777d;
 }
 
@@ -1326,6 +1332,9 @@ footer .copy {
   .top_left h2 {
     font-size: 1.7rem;
   }
+  .top_left h3 {
+    font-size: 1.7rem;
+  }
 
   .top_left > p {
     font-size: 1.3rem;
@@ -1650,6 +1659,12 @@ footer .copy {
     line-height: 1.5;
     color: #0B3B26;
 }
+.top_left h3 {
+  font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #0B3B26;
+}
 .top_left > p {
   color: #292929;
   font-weight: 200;
@@ -1703,7 +1718,7 @@ footer {
   margin-top: 10px;
 }
 .span_2 {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .top_right .card form .checkbox_group span {
   color: black;
@@ -1727,6 +1742,7 @@ footer {
 .top_left .grid p {
   margin-right: 5px;
   float: right;
+  margin-left: 15px;
   text-align: left;
 }
 .left-border {
@@ -1809,6 +1825,9 @@ button {
   .table-sec table tr{
     border-bottom: none;
     height: 70px;
+  }
+  .table-sec table th {
+    width: 25%;
   }
   
 
