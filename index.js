@@ -71,7 +71,7 @@ document.querySelectorAll(".scroll_to").forEach((a) => {
   });
 });
 
-if (window.innerWidth > 767) {
+if (window.innerWidth > 767 && window.innerWidth <= 1530) {
   var offsets = document.getElementById("enquire").getBoundingClientRect();
   var top = offsets.top;
   var left = offsets.left;
@@ -84,3 +84,32 @@ if (window.innerWidth > 767) {
   var divrifht = document.getElementById("smartLabel_sec");
   divrifht.style.marginLeft = margin + "px";
 }
+
+if (window.innerWidth > 1531 && window.innerWidth <= 1999) {
+    var offsets = document.getElementById("enquire").getBoundingClientRect();
+    var top = offsets.top;
+    var left = offsets.left;
+    // console.log("Left="+left)
+  
+    var offsets = document.getElementById("leftimage");
+    var offsetWidth = offsets.offsetWidth;
+    // console.log("offsetWidth="+offsetWidth)
+    var margin = left - offsetWidth-10;
+    var divrifht = document.getElementById("smartLabel_sec");
+    divrifht.style.marginLeft = margin + "px";
+  }
+
+  if (window.innerWidth > 1999 && window.innerWidth <= 3000) {
+    var offsets = document.getElementById("enquire").getBoundingClientRect();
+    var top = offsets.top;
+    var left = offsets.left;
+    // console.log("Left="+left)
+  
+    var offsets = document.getElementById("leftimage");
+    var offsetWidth = offsets.offsetWidth;
+    // console.log("offsetWidth="+offsetWidth)
+    var margin = left - offsetWidth-230;
+    var divrifht = document.getElementById("smartLabel_sec");
+    divrifht.style.marginLeft = margin + "px";
+  }
+

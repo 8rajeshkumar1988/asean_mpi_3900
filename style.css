@@ -1823,6 +1823,7 @@ button {
   }
   .table-sec {
     height: 550px;
+    background-size: 150px;
   }
   
   .top_left .grid {
