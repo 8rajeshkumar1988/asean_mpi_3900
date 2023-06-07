@@ -1223,7 +1223,7 @@ section > p {
 }
 
 footer {
-  background: #273336;
+  background: #082116;
 }
 
 footer .flex {
@@ -1652,7 +1652,7 @@ footer .copy {
 .key-list li {
   margin: 15px 0;
   list-style: disc;
-  list-style-position: inside;
+  margin-left: 15px;
   color: black !important;
 }
 .top_left h2 {
@@ -1678,7 +1678,7 @@ footer .copy {
   background-size: 100% 100%;
   max-width: 2000px;
   margin: auto;
-  min-height: 680px;
+  min-height: 750px;
 }
 #smartLabels {
   background-color: #EBEBEB;
@@ -1700,7 +1700,7 @@ footer .copy {
   color: #000000;
 }
 footer {
-  background-color: #0B3B26;
+  background-color: #082116;
 }
 .table-sec h1 {
   margin: 25px 0;
@@ -1765,7 +1765,7 @@ button {
   background-repeat: no-repeat;
   background-position-x: 110%;
   background-position-y: bottom;
-  background-size: contain;
+  background-size: 300px;
   margin-top: 30px;
   margin-bottom: 30px;
   
@@ -1826,11 +1826,11 @@ button {
     top: 130px;
   }
   .table-sec {
-    height: 550px;
+    height: 500px;
     
   }
   .table-sec-img {
-    
+    background-position-x: 110%;
     background-size: 150px;
   }
   
@@ -1872,8 +1872,7 @@ button {
 }
 @media only screen and (max-width:577px) {
   .hero-section {    
-    background-position-y:  900px;
-    
+    background-position-y:  900px;    
     min-height: 1300px;
   } 
   .top_right .card {
@@ -1885,32 +1884,120 @@ button {
   .top_right .card{
     top: 40%;
   }
-
-@media only screen and (max-width:449px) {
+}
+@media only screen and (max-width:577px) {
   .hero-section {    
-    background-position-y:  800px;
-    min-height: 1500px;
+    background-position-y: -150px;    
+    min-height: 1300px;
     background-repeat: no-repeat;
+  } 
+}
+@media only screen and (max-width:555px)  {
+  .top_right .card{
+    top: 36%;
   }
-  }
-@media only screen and (max-width:449px) {
+}
+
+@media only screen and (max-width:530px) {
   .hero-section {    
-    background-position-y:  800px;
-    min-height: 1500px;
-   
+    background-position-y: -20px;    
+  }
+  .top_right .card{
+    top: 46%;
+  }
+}
+@media only screen and (max-width:515px) {
+  .top_right .card{
+    top: 40%;
+  }
+}
+@media only screen and (max-width:494px) {
+  .top_right .card{
+    top: 36%;
+  }
+}
+@media only screen and (max-width:473px) {
+  .top_right .card{
+    top: 31%;
+  }
+  .hero-section {
+    margin-bottom: 220px;
+    min-height: 1100px;    
+  }  
+  
+}
+@media only screen and (max-width:449px) {
+  .hero-section {      
+    min-height: 1300px;   
+    background-position-y: 10%;    
   } 
   .top_right .card{
-    top: 27%;
+    top: 36%;
+  }
+}
+@media only screen and (max-width:446px) {
+  .top_right .card{
+    top: 31%;
+  }
+}
+@media only screen and (max-width:420px) {
+  .top_right .card{
+    top: 26%;
+  }
+  .hero-section {
+    margin-bottom: 150px;
+  }
+}
+@media only screen and (max-width:396px) {
+  .top_right .card{
+    top: 20%;
+  }
+  .hero-section {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width:390px) {
+  .hero-section {        
+    min-height: 1300px;    
+    background-position-y: 20%;    
+    margin-bottom: 200px;
+  }
+  .top_right .card{
+    top: 28%;
   }
 }
 @media only screen and (max-width:370px) {
+  .hero-section {           
+    background-position-y: 22%;    
+  }
   .top_right .card {
-    top: 20%;
+    top: 26%;
   }
 }
-
+@media only screen and (max-width:352px) {
+  .top_right .card {
+    top: 21%;
+  }
+  .hero-section {
+    margin-bottom: 120px;
+  }
+}
 @media only screen and (max-width:322px) {
   .top_right .card {
-    top: 35%;
+    top: 17%;
+  }
+}
+@media only screen and (max-width:300px) {
+  .top_right .card {
+    top: 11%;
+  }
+  .hero-section {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width:286px) {
+  .top_right .card {
+    top: 8%;
   }
 }
