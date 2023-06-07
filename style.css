@@ -803,7 +803,7 @@ button:hover::after {
 }
 .top_left h3 {
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.0;
   color: #62777d;
 }
@@ -1333,7 +1333,7 @@ footer .copy {
     font-size: 1.7rem;
   }
   .top_left h3 {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .top_left > p {
@@ -1661,7 +1661,7 @@ footer .copy {
 }
 .top_left h3 {
   font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
     color: #0B3B26;
 }
