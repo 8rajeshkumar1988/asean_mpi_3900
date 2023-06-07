@@ -1630,7 +1630,8 @@ footer .copy {
 /* section CSS */
 
 .table-sec table tr{
-  border-bottom: 0.25px solid grey;
+  border-bottom: solid grey;
+  border-bottom-width: thin;
   height: 70px;
 }
 .table-sec table th {
@@ -1757,6 +1758,15 @@ button {
 }
 .top_right .card > p {
   color: #292929;
+}
+.table-sec {
+  background: url(assets/rangeSvg.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
