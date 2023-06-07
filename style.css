@@ -1676,7 +1676,7 @@ footer .copy {
   background-size: 100% 100%;
   max-width: 2000px;
   margin: auto;
-  min-height: 650px;
+  min-height: 680px;
 }
 #smartLabels {
   background-color: #EBEBEB;
@@ -1752,7 +1752,12 @@ footer {
 button {
   background: #0b3b26 !important;
 }
-
+.top_right .card h4 {
+  color: #000000;
+}
+.top_right .card > p {
+  color: #292929;
+}
 
 
 
@@ -1760,13 +1765,18 @@ button {
 
 @media only screen and (max-width:1024px) {
   .hero-section {
-    min-height: 725px;
+    min-height: 805px;
   }
 }
 
 @media only screen and (min-width:2000px) {
   #smartLabels .container {
     margin: auto;
+  }
+}
+@media only screen and (max-width:1535px ) and (min-width:1402px) {
+  .hero-section {
+    min-height: 825px;
   }
 }
 @media only screen and (max-width:768px) {
