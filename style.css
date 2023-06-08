@@ -1657,29 +1657,29 @@ footer .copy {
 .key-list li {
   margin: 27px 0;
   list-style: disc;
-  font-weight: 200;
+  font-weight: 200;font-size: 1.2rem;
   margin-left: 15px;
   color: black !important;
 }
 .top_left h2 {
   font-weight: 400;
-    font-size: 2rem;
+    font-size: 2.3rem;
     line-height: 1.5;
     color: #0B3B26;
 }
 .top_left h3 {
   font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1.5;
     color: #0B3B26;
 }
 .top_left > p {
   color: #292929;
   font-weight: 200;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .hero-section {
-  background: url(assets/heroback21.jpg);
+  background: url(assets/herobackpng2.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   max-width: 2000px;
@@ -1766,6 +1766,7 @@ footer {
   margin-right: 5px;
   float: right;
   margin-left: 15px;
+  font-size: 1.2rem;
   text-align: left;
 }
 .left-border {
