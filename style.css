@@ -1649,6 +1649,10 @@ footer .copy {
 .span_2 {
   margin-top: 28px;
 }
+.select-drop {
+  margin-top: 15px;
+}
+
 .key-list li {
   margin: 15px 0;
   list-style: disc;
@@ -1765,7 +1769,7 @@ button {
   background-repeat: no-repeat;
   background-position-x: 110%;
   background-position-y: bottom;
-  background-size: 300px;
+  background-size: 400px;
   margin-top: 30px;
   margin-bottom: 30px;
   
