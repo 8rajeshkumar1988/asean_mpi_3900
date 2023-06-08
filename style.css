@@ -1882,7 +1882,9 @@ button {
   .table-sec table th {
     width: 25%;
   }
-  
+  .enquire {
+    margin-bottom: 50px;
+  }
 
 }
 @media only screen and (max-width:647px) {
