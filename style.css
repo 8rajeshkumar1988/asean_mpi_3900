@@ -1833,6 +1833,19 @@ button {
   }
 }
 @media only screen and (max-width:767px) {
+  .top_left h3 {
+    font-size: 1.5rem;
+  }
+  .top_left h2 {
+    font-size: 2rem;
+  }
+  .top_left > p {
+    font-size: 1.3rem;
+  }
+  .top_left .grid p {
+    font-weight: 100;
+    font-size: 1rem;
+  }
   .hero-section {
     background: url(assets/heroMob21.jpg);    
     background-position-y:  1000px;
