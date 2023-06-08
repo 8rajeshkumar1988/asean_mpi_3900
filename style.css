@@ -1679,7 +1679,7 @@ footer .copy {
   font-size: 1.3rem;
 }
 .hero-section {
-  background: url(assets/heroback2.png);
+  background: url(assets/heroback21.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   max-width: 2000px;
@@ -1833,7 +1833,7 @@ button {
 }
 @media only screen and (max-width:767px) {
   .hero-section {
-    background: url(assets/heroMob2.png);    
+    background: url(assets/heroMob21.jpg);    
     background-position-y:  1000px;
     min-height: 1500px;
     background-size: contain;
