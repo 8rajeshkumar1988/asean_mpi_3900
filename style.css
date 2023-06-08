@@ -827,7 +827,10 @@ button:hover::after {
   height: 4rem;
   width: auto;
 }
-
+.top_left .grid img {
+  height: 4rem;
+  width: auto;
+}
 .top_left .grid p {
   color: #62777d;
   font-family: aktifoa-book;
@@ -1631,7 +1634,7 @@ footer .copy {
 /* section CSS */
 
 .table-sec table tr{
-  border-bottom: solid #161616;
+  border-bottom: solid #16161642;
   border-bottom-width: 0.01px;
   height: 70px;
 }
@@ -1652,8 +1655,9 @@ footer .copy {
 
 
 .key-list li {
-  margin: 15px 0;
+  margin: 27px 0;
   list-style: disc;
+  font-weight: 200;
   margin-left: 15px;
   color: black !important;
 }
@@ -1700,6 +1704,9 @@ footer .copy {
 }
 .table-sec table tr th, .table-sec table tr td  {
   color: #000000;
+}
+.table-sec tr td {
+  font-weight: 200;
 }
 footer {
   background-color: #082116;
@@ -1748,6 +1755,10 @@ footer {
   align-items: flex-start;
 }
 .top_left .grid svg {
+  float: left;
+  margin-right: 5px;
+}
+.top_left .grid img {
   float: left;
   margin-right: 5px;
 }

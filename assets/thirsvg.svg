@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_107" data-name="Group 107" transform="translate(0 0.005)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="30" cy="30" r="30" transform="translate(0 -0.005)" fill="#0b3b26"/>
+    <g id="Asset_2ne" data-name="Asset 2ne" transform="translate(7 6)">
+      <g id="Layer_2">
+        <g id="Symbols">
+          <path id="Path_89" data-name="Path 89" d="M35.666,6.962V39.654H11.282V6.962H35.676M36.637,6H10.32V40.615H36.637V6Z" transform="translate(-0.474 -0.308)" fill="#fff"/>
+          <line id="Line_1" data-name="Line 1" x1="16.519" transform="translate(14.74 32.25)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Line_2" data-name="Line 2" x1="25.692" transform="translate(10.154 27.904)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Line_3" data-name="Line 3" x1="8.048" transform="translate(14.74 35.173)" fill="none" stroke="#fff" stroke-width="1"/>
+          <rect id="Rectangle_140" data-name="Rectangle 140" width="46" height="46" transform="translate(0 -0.005)" fill="none" opacity="0.3"/>
+          <line id="Line_4" data-name="Line 4" y1="4" x2="6.933" transform="translate(20.048 13.74)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+          <line id="Line_5" data-name="Line 5" y1="4.01" x2="6.942" transform="translate(18.567 17.673)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
