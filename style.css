@@ -1103,7 +1103,7 @@ section > p {
 
 #smartLabels .container {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 3fr 3fr;
   gap: 3rem;
   align-items: center;
 }
@@ -1788,7 +1788,17 @@ button {
     min-height: 860px;
   }
 }
+@media only screen and (min-width:1536px) {
+  .hero-section {
+    min-height: 830px;
+  }
+}
 
+@media only screen and (min-width:1401px) {
+  .hero-section {
+    min-height: 890px;
+  }
+}
 @media only screen and (max-width:1024px) {
   .hero-section {
     min-height: 805px;
@@ -1800,11 +1810,11 @@ button {
     margin: auto;
   }
 }
-@media only screen and (max-width:1535px ) and (min-width:1402px) {
+/* @media only screen and (max-width:1535px ) and (min-width:1402px) {
   .hero-section {
     min-height: 825px;
   }
-}
+} */
 @media only screen and (max-width:768px) {
   .smartLabel-sec {
     margin-left: 5%;
