@@ -1631,8 +1631,8 @@ footer .copy {
 /* section CSS */
 
 .table-sec table tr{
-  border-bottom: solid grey;
-  border-bottom-width: thin;
+  border-bottom: solid #161616;
+  border-bottom-width: 0.01px;
   height: 70px;
 }
 .table-sec table th {
@@ -1649,9 +1649,7 @@ footer .copy {
 .span_2 {
   margin-top: 28px;
 }
-.select-drop {
-  margin-top: 15px;
-}
+
 
 .key-list li {
   margin: 15px 0;
@@ -1723,9 +1721,17 @@ footer {
   color: black;
   margin-top: 10px;
 }
+.form_group {margin-top: 8px;}
 .span_2 {
   margin-top: 20px;
 }
+ .select-drop {
+  margin-top: 8px;
+}
+.form_group select {
+  height: 32px;
+}
+
 .top_right .card form .checkbox_group span {
   color: black;
 }
